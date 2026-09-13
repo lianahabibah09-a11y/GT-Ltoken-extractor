@@ -115,8 +115,4 @@ kembali pasangan dari baris bank, bukan dari sesi terkini.
 | `net::ERR_NAME_NOT_RESOLVED` / 403 | DNS/proxy (mis. WARP vs Akamai) | matikan VPN, coba `growtopia1/2` |
 | Chrome websocket timeout | `--user-data-dir` relatif | sudah difix: path absolut wajib |
 
-## Keamanan (kenapa banyak file di-.gitignore)
 
-`accounts.txt` (kredensial Google), `tokens.txt`, `urls.txt`, dan
-`profiles/` (cookie sesi Google = pembobol akun penuh) **tidak boleh
-ke git**. Repo hanya berisi kode; semua file data dibuat lokal.
