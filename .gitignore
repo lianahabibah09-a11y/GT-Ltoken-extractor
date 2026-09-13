@@ -1,0 +1,20 @@
+# kredensial & sesi — JANGAN PERNAH KE GIT
+accounts.txt
+probe_accounts.txt
+tokens.txt
+urls.txt
+profiles/
+sids/
+
+# artefak run
+chooser_after_*.html
+validate_body.txt
+dashboard_body.html
+refresh_new.log
+*.log
+
+# biner hasil build
+gt-login.exe
+gt-harvest.exe
+gt-refresh.exe
+growtopia-automation-clone.exe
